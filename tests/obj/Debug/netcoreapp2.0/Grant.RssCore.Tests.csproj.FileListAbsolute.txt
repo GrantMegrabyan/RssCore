@@ -1,0 +1,17 @@
+e:\Projects\Telegram\Grant.RssCore\tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+e:\Projects\Telegram\Grant.RssCore\tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+e:\Projects\Telegram\Grant.RssCore\tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+e:\Projects\Telegram\Grant.RssCore\tests\bin\Debug\netcoreapp2.0\Grant.RssCore.Tests.deps.json
+e:\Projects\Telegram\Grant.RssCore\tests\bin\Debug\netcoreapp2.0\Grant.RssCore.Tests.runtimeconfig.json
+e:\Projects\Telegram\Grant.RssCore\tests\bin\Debug\netcoreapp2.0\Grant.RssCore.Tests.runtimeconfig.dev.json
+e:\Projects\Telegram\Grant.RssCore\tests\bin\Debug\netcoreapp2.0\Grant.RssCore.Tests.dll
+e:\Projects\Telegram\Grant.RssCore\tests\bin\Debug\netcoreapp2.0\Grant.RssCore.Tests.pdb
+e:\Projects\Telegram\Grant.RssCore\tests\bin\Debug\netcoreapp2.0\Grant.RssCore.dll
+e:\Projects\Telegram\Grant.RssCore\tests\bin\Debug\netcoreapp2.0\Grant.RssCore.pdb
+e:\Projects\Telegram\Grant.RssCore\tests\obj\Debug\netcoreapp2.0\Grant.RssCore.Tests.csprojResolveAssemblyReference.cache
+e:\Projects\Telegram\Grant.RssCore\tests\obj\Debug\netcoreapp2.0\Grant.RssCore.Tests.csproj.CoreCompileInputs.cache
+e:\Projects\Telegram\Grant.RssCore\tests\obj\Debug\netcoreapp2.0\Grant.RssCore.Tests.AssemblyInfoInputs.cache
+e:\Projects\Telegram\Grant.RssCore\tests\obj\Debug\netcoreapp2.0\Grant.RssCore.Tests.AssemblyInfo.cs
+e:\Projects\Telegram\Grant.RssCore\tests\obj\Debug\netcoreapp2.0\Grant.RssCore.Tests.csproj.CopyComplete
+e:\Projects\Telegram\Grant.RssCore\tests\obj\Debug\netcoreapp2.0\Grant.RssCore.Tests.dll
+e:\Projects\Telegram\Grant.RssCore\tests\obj\Debug\netcoreapp2.0\Grant.RssCore.Tests.pdb

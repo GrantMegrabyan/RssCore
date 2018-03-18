@@ -1,11 +1,15 @@
+using System;
+using System.Text;
+
 namespace Grant.RssCore.Tests
 {
-    public class RssXmlBuilder
+    class RssXmlBuilder
     {
         string _title = string.Empty;
         string _link = string.Empty;
         string _description = string.Empty;
         string _lastBuildDate = string.Empty;
+        string _items = string.Empty;
 
         public RssXmlBuilder WithTitle(string title)
         {
@@ -31,6 +35,13 @@ namespace Grant.RssCore.Tests
             return this;
         }
 
+        public RssXmlBuilder WithItems(string[] items)
+        {
+            _items = string.Join(Environment.NewLine, items);
+
+            return this;
+        }
+
         public string Build()
         {
             return $@"<?xml version='1.0' encoding='UTF-8'?>
@@ -40,6 +51,7 @@ namespace Grant.RssCore.Tests
     {_link}
     {_description}
     {_lastBuildDate}
+    {_items}
   </channel>
 </rss>
 ";

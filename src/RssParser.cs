@@ -8,19 +8,19 @@ namespace Grant.RssCore
 {
     public class RssParser
     {
-        public RssFeed Parse(string rssFeedString)
+        public RssFeed Parse(string rssXml)
         {
-            if (rssFeedString == null)
-                throw new ArgumentNullException(nameof(rssFeedString));
+            if (rssXml == null)
+                throw new ArgumentNullException(nameof(rssXml));
 
-            if (string.IsNullOrEmpty(rssFeedString))
-                throw new ArgumentException(nameof(rssFeedString));
+            if (string.IsNullOrEmpty(rssXml))
+                throw new ArgumentException(nameof(rssXml));
 
             var rssFeed = new RssFeed();
             var items = new List<RssFeedItem>();
             var xmlDoc = new XmlDocument();
 
-            xmlDoc.LoadXml(rssFeedString);
+            xmlDoc.LoadXml(rssXml);
 
             var channelNode = xmlDoc.DocumentElement.SelectSingleNode("channel");
 

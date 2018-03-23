@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 
@@ -8,6 +9,13 @@ namespace Grant.RssCore
 {
     public class RssParser
     {
+        public async Task<RssFeed> ParseAsync(IRssSource source)
+        {
+            var xml = await source.GetAsync();
+
+            return Parse(xml);
+        }
+
         public RssFeed Parse(string rssXml)
         {
             if (rssXml == null)
